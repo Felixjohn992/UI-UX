@@ -1,0 +1,61 @@
+body{
+    background-color: #F3F0F0;
+    justify-items: center;
+    align-items: center;
+}
+hr{
+    min-height: 0.2em;
+    background-color: lightgrey;
+}
+h1, span{
+    color: purple;
+    display: inline-flex;
+    height: 0em;
+    margin-top: 0.1rem;
+}
+.blockquote{
+    margin-top: 0.8rem;
+    width: 70%;
+    height: auto;
+    display: block;
+    padding: 0 0 0 1rem;
+    border-left: 2px solid #512679
+}
+h2{
+    color: #512679;
+}
+.usd-button{
+    padding: 1rem;
+} 
+button{
+    color: blueviolet;
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    border-radius: 0.8rem;
+}
+header{
+    display: inline-table;
+    width: 500px;
+    background-color: white;
+    border-radius: 0.8rem;
+    margin: 10px;
+    height: 0px;
+    margin-block-start: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    flex: auto;
+}
+.week-list {
+    background-color: white;
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 0.1rem;
+    border-radius: 8px;
+    margin: 10px;
+}
